@@ -1,0 +1,63 @@
+/* src/styles.css */
+
+.product-list .card {
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-list .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-list .card-img-top {
+    height: 200px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  .product-list .card-footer {
+    background: rgba(255, 255, 255, 0.1); /* Slightly darker footer */
+  }
+  
+  .product-list .btn-primary {
+    background-color: #ff4c60;
+    border: none;
+  }
+  
+  .product-list .btn-primary:hover {
+    background-color: #ff6b81;
+  }
+  /* src/app/product-list/product-list.component.css */
+
+.product-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-10px) rotateY(5deg);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .card-img-top {
+    transition: transform 0.3s;
+  }
+  
+  .product-card:hover .card-img-top {
+    transform: scale(1.05);
+  }
+  
+  /* Optional: Add some padding to the list */
+  .product-list {
+    padding: 30px;
+  }
+  /* styles.css */
+.card-img-top {
+    height: 100%; /* Ensure the image occupies the full height of the card */
+}
+
+.card {
+    overflow: hidden; /* Prevent overflow if the image is larger */
+}

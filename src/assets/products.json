@@ -1,0 +1,753 @@
+[
+    {
+      "id": 1,
+      "name": "Samsung Galaxy S21",
+      "description": "6.2-inch display, 8GB RAM, 128GB Storage, 4000mAh battery",
+      "price": 799,
+      "imageUrl": "https://m.media-amazon.com/images/I/71goZuIha-L._SX679_.jpg",
+      "brand": "Samsung",
+      "specifications": {
+        "screenSize": "6.2 inches",
+        "camera": "12MP + 64MP + 12MP",
+        "battery": "4000mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 2,
+      "name": "iPhone 13 Pro",
+      "description": "6.1-inch display, 6GB RAM, 256GB Storage, A15 Bionic chip",
+      "price": 999,
+      "imageUrl": "https://m.media-amazon.com/images/I/61cecOpZrxL._SX679_.jpg",
+      "brand": "Apple",
+      "specifications": {
+        "screenSize": "6.1 inches",
+        "camera": "12MP + 12MP + 12MP",
+        "battery": "3095mAh",
+        "ram": "6GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Google Pixel 6",
+      "description": "6.4-inch display, 8GB RAM, 128GB Storage, Google Tensor chip",
+      "price": 599,
+      "imageUrl": "https://m.media-amazon.com/images/I/61ruKkvVIxL._SX679_.jpg",
+      "brand": "Google",
+      "specifications": {
+        "screenSize": "6.4 inches",
+        "camera": "50MP + 12MP",
+        "battery": "4614mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 4,
+      "name": "OnePlus 9",
+      "description": "6.55-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 729,
+      "imageUrl": "https://m.media-amazon.com/images/I/61HrWjOTJiL._SX679_.jpg",
+      "brand": "OnePlus",
+      "specifications": {
+        "screenSize": "6.55 inches",
+        "camera": "48MP + 50MP + 2MP",
+        "battery": "4500mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi Mi 11",
+      "description": "6.81-inch display, 8GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 749,
+      "imageUrl": "https://m.media-amazon.com/images/I/716FVMg72GS._SY741_.jpg",
+      "brand": "Xiaomi",
+      "specifications": {
+        "screenSize": "6.81 inches",
+        "camera": "108MP + 13MP + 5MP",
+        "battery": "4600mAh",
+        "ram": "8GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 6,
+      "name": "OnePlus 12",
+      "description": "6.5-inch 4K display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 1299,
+      "imageUrl": "https://m.media-amazon.com/images/I/71NW2QaIzlL._AC_SX679_.jpg",
+      "brand": "Sony",
+      "specifications": {
+        "screenSize": "6.5 inches",
+        "camera": "12MP + 12MP + 12MP",
+        "battery": "4500mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Oppo Find X3 Pro",
+      "description": "6.7-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 1149,
+      "imageUrl": "https://example.com/images/oppo-find-x3-pro.jpg",
+      "brand": "Oppo",
+      "specifications": {
+        "screenSize": "6.7 inches",
+        "camera": "50MP + 50MP + 13MP + 3MP",
+        "battery": "4500mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Huawei P40 Pro",
+      "description": "6.58-inch display, 8GB RAM, 256GB Storage, Kirin 990 5G",
+      "price": 899,
+      "imageUrl": "https://example.com/images/huawei-p40-pro.jpg",
+      "brand": "Huawei",
+      "specifications": {
+        "screenSize": "6.58 inches",
+        "camera": "50MP + 40MP + 12MP + 3D depth",
+        "battery": "4200mAh",
+        "ram": "8GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Realme GT",
+      "description": "6.43-inch display, 8GB RAM, 128GB Storage, Snapdragon 888",
+      "price": 549,
+      "imageUrl": "https://example.com/images/realme-gt.jpg",
+      "brand": "Realme",
+      "specifications": {
+        "screenSize": "6.43 inches",
+        "camera": "64MP + 8MP + 2MP",
+        "battery": "4500mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Motorola Edge 20 Pro",
+      "description": "6.7-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 799,
+      "imageUrl": "https://example.com/images/motorola-edge-20-pro.jpg",
+      "brand": "Motorola",
+      "specifications": {
+        "screenSize": "6.7 inches",
+        "camera": "108MP + 16MP + 8MP",
+        "battery": "4500mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Asus ROG Phone 5",
+      "description": "6.78-inch display, 16GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 999,
+      "imageUrl": "https://example.com/images/asus-rog-phone-5.jpg",
+      "brand": "Asus",
+      "specifications": {
+        "screenSize": "6.78 inches",
+        "camera": "64MP + 13MP + 5MP",
+        "battery": "6000mAh",
+        "ram": "16GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Nokia 8.3 5G",
+      "description": "6.81-inch display, 8GB RAM, 128GB Storage, Snapdragon 765G",
+      "price": 699,
+      "imageUrl": "https://example.com/images/nokia-8-3-5g.jpg",
+      "brand": "Nokia",
+      "specifications": {
+        "screenSize": "6.81 inches",
+        "camera": "64MP + 24MP + 2MP + 2MP",
+        "battery": "4500mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Vivo X60 Pro",
+      "description": "6.56-inch display, 12GB RAM, 256GB Storage, Exynos 1080",
+      "price": 899,
+      "imageUrl": "https://example.com/images/vivo-x60-pro.jpg",
+      "brand": "Vivo",
+      "specifications": {
+        "screenSize": "6.56 inches",
+        "camera": "48MP + 13MP + 13MP",
+        "battery": "4200mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 14,
+      "name": "LG Velvet",
+      "description": "6.8-inch display, 6GB RAM, 128GB Storage, Snapdragon 765G",
+      "price": 599,
+      "imageUrl": "https://example.com/images/lg-velvet.jpg",
+      "brand": "LG",
+      "specifications": {
+        "screenSize": "6.8 inches",
+        "camera": "48MP + 8MP + 5MP",
+        "battery": "4300mAh",
+        "ram": "6GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 15,
+      "name": "ZTE Axon 20",
+      "description": "6.92-inch display, 8GB RAM, 128GB Storage, Snapdragon 765G",
+      "price": 499,
+      "imageUrl": "https://example.com/images/zte-axon-20.jpg",
+      "brand": "ZTE",
+      "specifications": {
+        "screenSize": "6.92 inches",
+        "camera": "64MP + 8MP + 2MP + 2MP",
+        "battery": "4220mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Xiaomi Redmi Note 10 Pro",
+      "description": "6.67-inch display, 8GB RAM, 128GB Storage, Snapdragon 732G",
+      "price": 299,
+      "imageUrl": "https://example.com/images/xiaomi-redmi-note-10-pro.jpg",
+      "brand": "Xiaomi",
+      "specifications": {
+        "screenSize": "6.67 inches",
+        "camera": "108MP + 8MP + 5MP + 2MP",
+        "battery": "5020mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Samsung Galaxy A52",
+      "description": "6.5-inch display, 6GB RAM, 128GB Storage, Snapdragon 720G",
+      "price": 349,
+      "imageUrl": "https://example.com/images/samsung-galaxy-a52.jpg",
+      "brand": "Samsung",
+      "specifications": {
+        "screenSize": "6.5 inches",
+        "camera": "64MP + 12MP + 5MP + 5MP",
+        "battery": "4500mAh",
+        "ram": "6GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 18,
+      "name": "iPhone SE (2020)",
+      "description": "4.7-inch display, 3GB RAM, 64GB Storage, A13 Bionic chip",
+      "price": 399,
+      "imageUrl": "https://example.com/images/iphone-se-2020.jpg",
+      "brand": "Apple",
+      "specifications": {
+        "screenSize": "4.7 inches",
+        "camera": "12MP",
+        "battery": "1821mAh",
+        "ram": "3GB",
+        "storage": "64GB"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Google Pixel 5a",
+      "description": "6.34-inch display, 6GB RAM, 128GB Storage, Snapdragon 765G",
+      "price": 449,
+      "imageUrl": "https://example.com/images/google-pixel-5a.jpg",
+      "brand": "Google",
+      "specifications": {
+        "screenSize": "6.34 inches",
+        "camera": "12.2MP + 16MP",
+        "battery": "4680mAh",
+        "ram": "6GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Nokia G20",
+      "description": "6.52-inch display, 4GB RAM, 64GB Storage, MediaTek G35",
+      "price": 199,
+      "imageUrl": "https://example.com/images/nokia-g20.jpg",
+      "brand": "Nokia",
+      "specifications": {
+        "screenSize": "6.52 inches",
+        "camera": "48MP + 5MP + 2MP + 2MP",
+        "battery": "5050mAh",
+        "ram": "4GB",
+        "storage": "64GB"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Sony Xperia 10 III",
+      "description": "6.0-inch display, 6GB RAM, 128GB Storage, Snapdragon 690",
+      "price": 399,
+      "imageUrl": "https://example.com/images/sony-xperia-10-iii.jpg",
+      "brand": "Sony",
+      "specifications": {
+        "screenSize": "6.0 inches",
+        "camera": "12MP + 8MP + 8MP",
+        "battery": "4500mAh",
+        "ram": "6GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Honor 50",
+      "description": "6.57-inch display, 8GB RAM, 256GB Storage, Snapdragon 778G",
+      "price": 499,
+      "imageUrl": "https://example.com/images/honor-50.jpg",
+      "brand": "Honor",
+      "specifications": {
+        "screenSize": "6.57 inches",
+        "camera": "108MP + 8MP + 2MP + 2MP",
+        "battery": "4300mAh",
+        "ram": "8GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Xiaomi Poco X3 Pro",
+      "description": "6.67-inch display, 8GB RAM, 256GB Storage, Snapdragon 860",
+      "price": 299,
+      "imageUrl": "https://example.com/images/xiaomi-poco-x3-pro.jpg",
+      "brand": "Xiaomi",
+      "specifications": {
+        "screenSize": "6.67 inches",
+        "camera": "48MP + 8MP + 2MP + 2MP",
+        "battery": "5160mAh",
+        "ram": "8GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Samsung Galaxy M32",
+      "description": "6.4-inch display, 6GB RAM, 128GB Storage, MediaTek Helio G80",
+      "price": 249,
+      "imageUrl": "https://example.com/images/samsung-galaxy-m32.jpg",
+      "brand": "Samsung",
+      "specifications": {
+        "screenSize": "6.4 inches",
+        "camera": "64MP + 8MP + 2MP + 2MP",
+        "battery": "6000mAh",
+        "ram": "6GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 25,
+      "name": "iPhone 12",
+      "description": "6.1-inch display, 4GB RAM, 64GB Storage, A14 Bionic chip",
+      "price": 799,
+      "imageUrl": "https://example.com/images/iphone-12.jpg",
+      "brand": "Apple",
+      "specifications": {
+        "screenSize": "6.1 inches",
+        "camera": "12MP + 12MP",
+        "battery": "2815mAh",
+        "ram": "4GB",
+        "storage": "64GB"
+      }
+    },
+    {
+      "id": 26,
+      "name": "Realme 8 Pro",
+      "description": "6.43-inch display, 8GB RAM, 128GB Storage, Snapdragon 720G",
+      "price": 299,
+      "imageUrl": "https://example.com/images/realme-8-pro.jpg",
+      "brand": "Realme",
+      "specifications": {
+        "screenSize": "6.43 inches",
+        "camera": "108MP + 8MP + 2MP + 2MP",
+        "battery": "4500mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 27,
+      "name": "Honor 30 Pro",
+      "description": "6.57-inch display, 8GB RAM, 256GB Storage, Kirin 990",
+      "price": 699,
+      "imageUrl": "https://example.com/images/honor-30-pro.jpg",
+      "brand": "Honor",
+      "specifications": {
+        "screenSize": "6.57 inches",
+        "camera": "40MP + 12MP + 8MP",
+        "battery": "4000mAh",
+        "ram": "8GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Xiaomi Mi 11i",
+      "description": "6.67-inch display, 8GB RAM, 128GB Storage, Snapdragon 888",
+      "price": 699,
+      "imageUrl": "https://example.com/images/xiaomi-mi-11i.jpg",
+      "brand": "Xiaomi",
+      "specifications": {
+        "screenSize": "6.67 inches",
+        "camera": "108MP + 8MP + 5MP",
+        "battery": "4520mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 29,
+      "name": "Vivo V21e",
+      "description": "6.44-inch display, 8GB RAM, 128GB Storage, MediaTek Helio G96",
+      "price": 299,
+      "imageUrl": "https://example.com/images/vivo-v21e.jpg",
+      "brand": "Vivo",
+      "specifications": {
+        "screenSize": "6.44 inches",
+        "camera": "64MP + 8MP",
+        "battery": "4000mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Nokia X20",
+      "description": "6.67-inch display, 8GB RAM, 128GB Storage, Snapdragon 480",
+      "price": 349,
+      "imageUrl": "https://example.com/images/nokia-x20.jpg",
+      "brand": "Nokia",
+      "specifications": {
+        "screenSize": "6.67 inches",
+        "camera": "64MP + 5MP + 2MP + 2MP",
+        "battery": "4470mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Huawei P40 Lite",
+      "description": "6.4-inch display, 6GB RAM, 128GB Storage, Kirin 810",
+      "price": 299,
+      "imageUrl": "https://example.com/images/huawei-p40-lite.jpg",
+      "brand": "Huawei",
+      "specifications": {
+        "screenSize": "6.4 inches",
+        "camera": "48MP + 8MP + 2MP + 2MP",
+        "battery": "4200mAh",
+        "ram": "6GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 32,
+      "name": "OnePlus Nord N200 5G",
+      "description": "6.49-inch display, 4GB RAM, 64GB Storage, Snapdragon 480 5G",
+      "price": 239,
+      "imageUrl": "https://example.com/images/oneplus-nord-n200-5g.jpg",
+      "brand": "OnePlus",
+      "specifications": {
+        "screenSize": "6.49 inches",
+        "camera": "13MP + 2MP + 2MP",
+        "battery": "5000mAh",
+        "ram": "4GB",
+        "storage": "64GB"
+      }
+    },
+    {
+      "id": 33,
+      "name": "ZTE Blade 20",
+      "description": "6.49-inch display, 4GB RAM, 128GB Storage, MediaTek Helio P70",
+      "price": 199,
+      "imageUrl": "https://example.com/images/zte-blade-20.jpg",
+      "brand": "ZTE",
+      "specifications": {
+        "screenSize": "6.49 inches",
+        "camera": "16MP + 2MP + 2MP",
+        "battery": "4000mAh",
+        "ram": "4GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 34,
+      "name": "Motorola Moto G Power (2021)",
+      "description": "6.6-inch display, 4GB RAM, 64GB Storage, MediaTek Helio G88",
+      "price": 249,
+      "imageUrl": "https://example.com/images/motorola-moto-g-power-2021.jpg",
+      "brand": "Motorola",
+      "specifications": {
+        "screenSize": "6.6 inches",
+        "camera": "48MP + 2MP + 2MP",
+        "battery": "5000mAh",
+        "ram": "4GB",
+        "storage": "64GB"
+      }
+    },
+    {
+      "id": 35,
+      "name": "Vivo Y52 5G",
+      "description": "6.58-inch display, 8GB RAM, 128GB Storage, MediaTek Dimensity 700",
+      "price": 299,
+      "imageUrl": "https://example.com/images/vivo-y52-5g.jpg",
+      "brand": "Vivo",
+      "specifications": {
+        "screenSize": "6.58 inches",
+        "camera": "64MP + 2MP + 2MP",
+        "battery": "5000mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 36,
+      "name": "Realme Narzo 30 Pro",
+      "description": "6.5-inch display, 6GB RAM, 128GB Storage, MediaTek Dimensity 800U",
+      "price": 199,
+      "imageUrl": "https://example.com/images/realme-narzo-30-pro.jpg",
+      "brand": "Realme",
+      "specifications": {
+        "screenSize": "6.5 inches",
+        "camera": "48MP + 8MP + 2MP",
+        "battery": "5000mAh",
+        "ram": "6GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 37,
+      "name": "Nokia 5.4",
+      "description": "6.39-inch display, 4GB RAM, 128GB Storage, Snapdragon 662",
+      "price": 249,
+      "imageUrl": "https://example.com/images/nokia-5-4.jpg",
+      "brand": "Nokia",
+      "specifications": {
+        "screenSize": "6.39 inches",
+        "camera": "48MP + 5MP + 2MP + 2MP",
+        "battery": "4000mAh",
+        "ram": "4GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 38,
+      "name": "Samsung Galaxy A72",
+      "description": "6.7-inch display, 8GB RAM, 256GB Storage, Snapdragon 720G",
+      "price": 499,
+      "imageUrl": "https://example.com/images/samsung-galaxy-a72.jpg",
+      "brand": "Samsung",
+      "specifications": {
+        "screenSize": "6.7 inches",
+        "camera": "64MP + 12MP + 8MP + 5MP",
+        "battery": "5000mAh",
+        "ram": "8GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 39,
+      "name": "iPhone 14 Pro Max",
+      "description": "6.7-inch display, 6GB RAM, 512GB Storage, A16 Bionic chip",
+      "price": 1099,
+      "imageUrl": "https://example.com/images/iphone-14-pro-max.jpg",
+      "brand": "Apple",
+      "specifications": {
+        "screenSize": "6.7 inches",
+        "camera": "12MP + 12MP + 12MP",
+        "battery": "4352mAh",
+        "ram": "6GB",
+        "storage": "512GB"
+      }
+    },
+    {
+      "id": 40,
+      "name": "OnePlus 9 Pro",
+      "description": "6.7-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 999,
+      "imageUrl": "https://example.com/images/oneplus-9-pro.jpg",
+      "brand": "OnePlus",
+      "specifications": {
+        "screenSize": "6.7 inches",
+        "camera": "48MP + 50MP + 8MP + 2MP",
+        "battery": "4500mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 41,
+      "name": "Google Pixel 6",
+      "description": "6.4-inch display, 8GB RAM, 128GB Storage, Google Tensor chip",
+      "price": 599,
+      "imageUrl": "https://example.com/images/google-pixel-6.jpg",
+      "brand": "Google",
+      "specifications": {
+        "screenSize": "6.4 inches",
+        "camera": "50MP + 12MP",
+        "battery": "4614mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 42,
+      "name": "Samsung Galaxy Z Flip 3",
+      "description": "6.7-inch display, 8GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 999,
+      "imageUrl": "https://example.com/images/samsung-galaxy-z-flip-3.jpg",
+      "brand": "Samsung",
+      "specifications": {
+        "screenSize": "6.7 inches",
+        "camera": "12MP + 12MP",
+        "battery": "3300mAh",
+        "ram": "8GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 43,
+      "name": "Motorola Edge 20 Pro",
+      "description": "6.7-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 799,
+      "imageUrl": "https://example.com/images/motorola-edge-20-pro.jpg",
+      "brand": "Motorola",
+      "specifications": {
+        "screenSize": "6.7 inches",
+        "camera": "108MP + 16MP + 8MP",
+        "battery": "4500mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 44,
+      "name": "Asus ROG Phone 5",
+      "description": "6.78-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 999,
+      "imageUrl": "https://example.com/images/asus-rog-phone-5.jpg",
+      "brand": "Asus",
+      "specifications": {
+        "screenSize": "6.78 inches",
+        "camera": "64MP + 13MP + 5MP",
+        "battery": "6000mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 45,
+      "name": "Xiaomi Mi Mix 4",
+      "description": "6.67-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 999,
+      "imageUrl": "https://example.com/images/xiaomi-mi-mix-4.jpg",
+      "brand": "Xiaomi",
+      "specifications": {
+        "screenSize": "6.67 inches",
+        "camera": "108MP + 13MP + 8MP",
+        "battery": "4500mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 46,
+      "name": "Oppo Find X3 Pro",
+      "description": "6.7-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 1149,
+      "imageUrl": "https://example.com/images/oppo-find-x3-pro.jpg",
+      "brand": "Oppo",
+      "specifications": {
+        "screenSize": "6.7 inches",
+        "camera": "50MP + 13MP + 3MP + 3MP",
+        "battery": "4500mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 47,
+      "name": "Realme GT",
+      "description": "6.43-inch display, 8GB RAM, 128GB Storage, Snapdragon 888",
+      "price": 699,
+      "imageUrl": "https://example.com/images/realme-gt.jpg",
+      "brand": "Realme",
+      "specifications": {
+        "screenSize": "6.43 inches",
+        "camera": "64MP + 13MP + 2MP",
+        "battery": "4500mAh",
+        "ram": "8GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 48,
+      "name": "Nokia G50",
+      "description": "6.82-inch display, 4GB RAM, 128GB Storage, Snapdragon 480",
+      "price": 299,
+      "imageUrl": "https://example.com/images/nokia-g50.jpg",
+      "brand": "Nokia",
+      "specifications": {
+        "screenSize": "6.82 inches",
+        "camera": "48MP + 5MP + 2MP",
+        "battery": "5000mAh",
+        "ram": "4GB",
+        "storage": "128GB"
+      }
+    },
+    {
+      "id": 49,
+      "name": "Samsung Galaxy S21 Ultra",
+      "description": "6.8-inch display, 12GB RAM, 256GB Storage, Snapdragon 888",
+      "price": 1199,
+      "imageUrl": "https://example.com/images/samsung-galaxy-s21-ultra.jpg",
+      "brand": "Samsung",
+      "specifications": {
+        "screenSize": "6.8 inches",
+        "camera": "108MP + 10MP + 10MP + 12MP",
+        "battery": "5000mAh",
+        "ram": "12GB",
+        "storage": "256GB"
+      }
+    },
+    {
+      "id": 50,
+      "name": "Apple iPhone 13 Pro",
+      "description": "6.1-inch display, 6GB RAM, 128GB Storage, A15 Bionic chip",
+      "price": 999,
+      "imageUrl": "https://example.com/images/iphone-13-pro.jpg",
+      "brand": "Apple",
+      "specifications": {
+        "screenSize": "6.1 inches",
+        "camera": "12MP + 12MP + 12MP",
+        "battery": "3095mAh",
+        "ram": "6GB",
+        "storage": "128GB"
+      }
+    }
+  ]
+

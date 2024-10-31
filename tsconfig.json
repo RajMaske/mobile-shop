@@ -11,6 +11,7 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "isolatedModules": true,
+    "resolveJsonModule": true,
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
@@ -23,6 +24,8 @@
       "ES2022",
       "dom"
     ]
+   
+   
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

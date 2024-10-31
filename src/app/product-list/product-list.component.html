@@ -1,0 +1,45 @@
+<div class="container-fluid bg-dark product-list py-5">
+    <div *ngIf="hide" class="row">
+      <div *ngFor="let product of products" class="col-md-6 mb-4 ">
+        <div class="card h-100 bg-dark text-light p-3 shadow-sm" (click)="selectProduct(product)">
+          <div class="row g-0">
+            <!-- Product Image on the left side -->
+            <div class="col-md-6">
+              <img 
+                [src]="product.imageUrl" 
+                class="img-fluid h-100" 
+                alt="{{ product.name }}" 
+                style="object-fit: cover; height: 100%; width: 100%;">
+            </div>
+            <!-- Product Info on the right side -->
+            <div class="col-md-6 d-flex flex-column justify-content-center">
+              <div class="card-body">
+                <h5 class="card-title">{{ product.name }}</h5>
+                <p class="card-text">{{ product.description }}</p>
+                <p class="card-text fw-bold">Price: ${{ product.price }}</p>
+                <p class="card-text">Brand: {{ product.brand }}</p>
+                <h6 class="mt-3">Specifications:</h6>
+                <ul class="list-unstyled">
+                  <li><strong>Screen Size:</strong> {{ product.specifications.screenSize }}</li>
+                  <li><strong>Camera:</strong> {{ product.specifications.camera }}</li>
+                  <li><strong>Battery:</strong> {{ product.specifications.battery }}</li>
+                  <li><strong>RAM:</strong> {{ product.specifications.ram }}</li>
+                  <li><strong>Storage:</strong> {{ product.specifications.storage }}</li>
+                </ul>
+              </div>
+              <div class="card-footer text-center">
+                <button class="btn btn-primary w-100">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Product Detail Section -->
+    <div *ngIf="selectedProduct" class="my-5">
+      <button class="btn btn-secondary mt-3" (click)="deselectProduct()">Back to List</button>
+      <app-product-detail [product]="selectedProduct"></app-product-detail>
+    </div>
+  </div>
+  

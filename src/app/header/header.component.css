@@ -1,0 +1,41 @@
+/* You can add global styles to this file, and also import other style files */
+/* styles.css */
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  
+  .navbar {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .nav-link {
+    transition: color 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #ddd; /* Slightly lighter color on hover */
+  }
+  
+  .form-control-dark {
+    background-color: #333;
+    color: #fff;
+    border: 1px solid #555;
+  }
+  
+  .form-control-dark::placeholder {
+    color: #ccc;
+  }
+  
+  .btn-primary {
+    background-color: #ff4c60; /* Bright accent color */
+    border-color: #ff4c60;
+    transition: background-color 0.3s, border-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff6b81; /* Slightly lighter shade on hover */
+    border-color: #ff6b81;
+  }
+  
